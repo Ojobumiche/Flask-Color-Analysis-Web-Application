@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Statistics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #3498db;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Statistics</h1>
+
+    <p><strong>Mean Colour:</strong> {{ mean_colour }}</p>
+    <p><strong>Most Worn Color:</strong> {{ most_common_color }}</p>
+    <p><strong>Median Color:</strong> {{ median_color }}</p>
+    <p><strong>Colors Variance:</strong> {{ colors_variance }}</p>
+    <p><strong>Probability of Choosing Red:</strong> {{ red_probability }}</p>
+</body>
+</html>
